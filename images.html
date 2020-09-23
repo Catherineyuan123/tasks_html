@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>Test Bootstrap</title>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+       
+        <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css>
+       
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </head>
+<body>
+	
+
+
+<div class="container" >
+    <h4 class="h4 text-center">Portfolio</h4> 
+    <p class="text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ad dolor cumque quibusdam ipsum mollitia id deserunt, Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aut consectetur quasi reprehenderit ut? Dolor nobis cumque eaque, provident et quas voluptatibus sunt, fugiat dolore assumenda facere at! Labore, inventore. </p>
+    <div class="row">
+        <div class="col-md-4 bg-light my-3"><img src="agency.jpg" width="300px" height="300px" id="img1"></div>
+        <div class="col-md-4 bg-light my-3 "><img src="agency1.png" width="300px" height="300px" id="img2"></div>
+        <div class="col-md-4 bg-light my-3"><img src="agency2.jpg" width="300px" height="300px" id="img3"></div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 bg-light my-3"><img src="agency3.jpg" width="300px" height="300px" id="img4"></div>
+        <div class="col-md-4 bg-light my-3 "><img src="agency4.jpg" width="300px" height="300px" id="img5"></div>
+        <div class="col-md-4 bg-light my-3"><img src="agency5.jpg" width="300px" height="300px" id="img6"></div>
+    </div>
+    <i class="fas fa-ellipsis-h"></i>   
+</div>
+<script>
+      document.addEventListener("DOMContentLoaded",function(){
+          document.querySelector("#img1").onmouseover=()=>{
+              document.getElementById("img1").style.opacity="0.5";
+          }
+          document.querySelector("#img1").onmouseout=()=>{
+              document.getElementById("img1").style.opacity="100";
+          }
+          document.querySelector("#img2").onmouseover=()=>{
+              document.getElementById("img2").style.opacity="0.5";
+          }
+          document.querySelector("#img2").onmouseout=()=>{
+              document.getElementById("img2").style.opacity="100";
+          }
+          document.querySelector("#img3").onmouseover=()=>{
+              document.getElementById("img3").style.opacity="0.5";
+          }
+          document.querySelector("#img3").onmouseout=()=>{
+              document.getElementById("img3").style.opacity="100";
+          }
+          document.querySelector("#img4").onmouseover=()=>{
+              document.getElementById("img4").style.opacity="0.5";
+          }
+          document.querySelector("#img4").onmouseout=()=>{
+              document.getElementById("img4").style.opacity="100";
+          }
+          document.querySelector("#img5").onmouseover=()=>{
+              document.getElementById("img5").style.opacity="0.5";
+          }
+          document.querySelector("#img5").onmouseout=()=>{
+              document.getElementById("img5").style.opacity="100";
+          }
+          document.querySelector("#img6").onmouseover=()=>{
+              document.getElementById("img6").style.opacity="0.5";
+          }
+          document.querySelector("#img6").onmouseout=()=>{
+              document.getElementById("img6").style.opacity="100";
+          }
+      })
+</script>
+
+
+</body>
+</html>
